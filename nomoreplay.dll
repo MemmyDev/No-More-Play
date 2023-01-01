@@ -1,0 +1,10 @@
+using System
+using Application
+
+public class NMPFY : MonoBehaviour
+
+void Start 
+{
+    Application.quit
+    if (Application.Resume) {Application.Quit}
+}
